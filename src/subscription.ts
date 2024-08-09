@@ -19,7 +19,7 @@ apps.forEach((appConfig) => {
 });
 
 export default defineGkdSubscription({
-  id: 666,
+  id: 125809,
   name: 'Keith的GKD订阅',
   version: 0,
   author: 'Keith',

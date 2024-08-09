@@ -1,4 +1,4 @@
-# @Keith/GKD_subscription
+# @Kieth/GKD_subscription
 
 ---
 
@@ -15,11 +15,12 @@
 
 **订阅链接：**
 
+
 ```txt
 https://gitee.com/keith_yang/GKD_subscription/blob/main/dist/Keith_gkd.json5
 ```
 
-当前版本: v0
+当前版本: v1
 
 当前订阅文件已适配 774 个应用，共有 1824 应用规则组，3 全局规则组
 
