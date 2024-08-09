@@ -147,7 +147,8 @@ export default defineGkdApp({
           preKeys: 0,
           key: 1,
           name: '关闭签到后的弹窗',
-          matches: '[text="绝区零】每日签到"] >3 TextView[visibleToUser=true]',
+          matches:
+            '[text="【绝区零】每日签到"] >3 TextView[visibleToUser=true]',
           exampleUrls:
             'https://m.gkd.li/57941037/3babb231-30a7-4891-9c4a-c11946838741',
           snapshotUrls: ['https://i.gkd.li/i/16557611'],
