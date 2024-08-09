@@ -1,4 +1,4 @@
-# @AIsouler/GKD_subscription
+# @Keith/GKD_subscription
 
 ---
 
@@ -15,16 +15,8 @@
 
 **订阅链接：**
 
-- npmmirror源（国内）
-
 ```txt
-https://registry.npmmirror.com/@aisouler/gkd_subscription/latest/files/dist/AIsouler_gkd.json5
-```
-
-- GitHub源
-
-```txt
-https://raw.githubusercontent.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5
+https://gitee.com/keith_yang/GKD_subscription/blob/main/dist/Keith_gkd.json5
 ```
 
 当前版本: v0
@@ -45,10 +37,4 @@ https://raw.githubusercontent.com/AIsouler/GKD_subscription/main/dist/AIsouler_g
 
 [gkd-kit/subscription](https://github.com/gkd-kit/subscription)
 
-## 感谢以下开发者的贡献
-
-![img](https://contrib.rocks/image?repo=AIsouler/GKD_subscription&_v=0)
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=AIsouler/GKD_subscription&type=Date)](https://star-history.com/#AIsouler/GKD_subscription&Date)
+[AIsouler/GKD_subscription](https://github.com/AIsouler/GKD_subscription)
