@@ -17,7 +17,7 @@
 
 
 ```txt
-https://gitee.com/keith_yang/GKD_subscription/blob/main/dist/Keith_gkd.json5
+https://gitee.com/keith_yang/GKD_subscription/raw/main/dist/Keith_gkd.json5
 ```
 
 当前版本: v1
