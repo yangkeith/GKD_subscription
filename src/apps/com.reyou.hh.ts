@@ -1,0 +1,20 @@
+import { defineGkdApp } from '@gkd-kit/define';
+
+export default defineGkdApp({
+  id: 'com.reyou.hh',
+  name: '昊昊听书',
+  groups: [
+    {
+      key: 7,
+      name: '全屏广告',
+      rules: [
+        {
+          activityIds: 'com.e4a.runtime.android.mainActivity',
+          matches:
+            'FrameLayout[id="com.reyou.hh:id/ksad_tk_view"] >5 ViewGroup > ViewGroup[index=2] > ViewGroup',
+          snapshotUrls: 'https://i.gkd.li/i/16556907',
+        },
+      ],
+    },
+  ],
+});

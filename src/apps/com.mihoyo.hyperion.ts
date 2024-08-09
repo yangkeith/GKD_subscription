@@ -125,5 +125,44 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 6,
+      name: '功能类-绝区零自动签到',
+      desc: '点击签到-关闭弹窗-返回',
+      forcedTime: 5000,
+      activityIds: 'com.mihoyo.hyperion.web2.MiHoYoWebActivity',
+      rules: [
+        {
+          key: 0,
+          name: '点击签到',
+          matches: '[text="【绝区零】每日签到"] >4 View > View + TextView',
+          exampleUrls:
+            'https://m.gkd.li/57941037/a9f426c4-3184-4525-b283-ad77d6f83d02',
+          snapshotUrls: [
+            'https://i.gkd.li/i/14376296',
+            'https://i.gkd.li/i/14432972',
+          ],
+        },
+        {
+          preKeys: 0,
+          key: 1,
+          name: '关闭签到后的弹窗',
+          matches: '[text="绝区零】每日签到"] >3 TextView[visibleToUser=true]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/3babb231-30a7-4891-9c4a-c11946838741',
+          snapshotUrls: ['https://i.gkd.li/i/16557611'],
+        },
+        {
+          preKeys: 1,
+          key: 2,
+          name: '返回上一个页面',
+          matches:
+            '[text="【绝区零】每日签到"] > View > View[index=0] >3 TextView[clickable=true]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/d8031907-105b-4d37-8542-b71e854b3b8a',
+          snapshotUrls: 'https://i.gkd.li/i/14371790',
+        },
+      ],
+    },
   ],
 });
