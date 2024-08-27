@@ -26,6 +26,12 @@ export default defineGkdApp({
             'FrameLayout[id="android:id/content"] >4 FrameLayout[index=2] > ImageView',
           snapshotUrls: 'https://i.gkd.li/i/16745831',
         },
+        {
+          activityIds: 'com.e4a.runtime.android.mainActivity',
+          matches:
+            'FrameLayout[id="android:id/content"] >4 FrameLayout[index=4] > ImageView',
+          snapshotUrls: 'https://i.gkd.li/i/16757206',
+        },
       ],
     },
   ],

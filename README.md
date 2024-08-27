@@ -20,7 +20,7 @@
 https://raw.githubusercontent.com/yangkeith/GKD_subscription/main/dist/Keith_gkd.json5
 ```
 
-当前版本: v4
+当前版本: v5
 
 当前订阅文件已适配 774 个应用，共有 1824 应用规则组，3 全局规则组
 
