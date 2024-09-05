@@ -15,11 +15,12 @@
 
 **订阅链接：**
 
-
+GitHub:
 ```txt
 https://raw.githubusercontent.com/yangkeith/GKD_subscription/main/dist/Keith_gkd.json5
 ```
 
+国内镜像:
 ```txt
 https://registry.npmmirror.com/@yangkeith/gkd_subscription/latest/files/dist/Keith_gkd.json5
 ```

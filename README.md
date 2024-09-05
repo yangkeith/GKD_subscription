@@ -15,12 +15,17 @@
 
 **订阅链接：**
 
-
+GitHub:
 ```txt
 https://raw.githubusercontent.com/yangkeith/GKD_subscription/main/dist/Keith_gkd.json5
 ```
 
-当前版本: v6
+国内镜像:
+```txt
+https://registry.npmmirror.com/@yangkeith/gkd_subscription/latest/files/dist/Keith_gkd.json5
+```
+
+当前版本: v7
 
 当前订阅文件已适配 774 个应用，共有 1824 应用规则组，3 全局规则组
 
