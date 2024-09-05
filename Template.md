@@ -20,6 +20,10 @@
 https://raw.githubusercontent.com/yangkeith/GKD_subscription/main/dist/Keith_gkd.json5
 ```
 
+```txt
+https://registry.npmmirror.com/@yangkeith/gkd_subscription/latest/files/dist/Keith_gkd.json5
+```
+
 当前版本: v--VERSION--
 
 当前订阅文件已适配 --APP_SIZE-- 个应用，共有 --GROUP_SIZE-- 应用规则组，--GLOBALGROUP_SIZE-- 全局规则组
