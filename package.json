@@ -2,7 +2,6 @@
   "name": "@yangkeith/gkd_subscription",
   "version": "0.0.1",
   "type": "module",
-  "unpkg": "./dist/Keith_gkd.json5",
   "gkd": {
     "outDir": "dist",
     "file": "Keith_gkd.json5",
