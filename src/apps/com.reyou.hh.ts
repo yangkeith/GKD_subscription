@@ -41,8 +41,8 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 8,
-      name: '开屏晃动广告',
+      key: 10,
+      name: '其他',
       rules: [
         {
           activityIds: 'com.e4a.runtime.android.mainActivity',
