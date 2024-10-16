@@ -11,6 +11,12 @@ export default defineGkdApp({
         {
           activityIds: 'com.e4a.runtime.android.mainActivity',
           matches:
+            'FrameLayout[id="android:id/content"] > FrameLayout > FrameLayout > FrameLayout[childCount=2] > FrameLayout[childCount=2] > FrameLayout > FrameLayout > ImageView',
+          snapshotUrls: 'https://i.gkd.li/i/17380802',
+        },
+        {
+          activityIds: 'com.e4a.runtime.android.mainActivity',
+          matches:
             'FrameLayout[id="com.reyou.hh:id/ksad_tk_view"] >5 ViewGroup > ViewGroup[index=2] > ViewGroup',
           snapshotUrls: 'https://i.gkd.li/i/16556907',
         },
