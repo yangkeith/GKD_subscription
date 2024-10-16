@@ -11,12 +11,6 @@ export default defineGkdApp({
         {
           activityIds: 'com.e4a.runtime.android.mainActivity',
           matches:
-            'FrameLayout[id="android:id/content"] > FrameLayout > FrameLayout > FrameLayout[childCount=2] > FrameLayout[childCount=2] > FrameLayout > FrameLayout > ImageView',
-          snapshotUrls: 'https://i.gkd.li/i/17380802',
-        },
-        {
-          activityIds: 'com.e4a.runtime.android.mainActivity',
-          matches:
             'FrameLayout[id="com.reyou.hh:id/ksad_tk_view"] >5 ViewGroup > ViewGroup[index=2] > ViewGroup',
           snapshotUrls: 'https://i.gkd.li/i/16556907',
         },
@@ -43,6 +37,18 @@ export default defineGkdApp({
           matches:
             'FrameLayout[id="android:id/content"] >5 FrameLayout[index=1] > ImageView',
           snapshotUrls: 'https://i.gkd.li/i/16837488',
+        },
+      ],
+    },
+    {
+      key: 8,
+      name: '开屏晃动广告',
+      rules: [
+        {
+          activityIds: 'com.e4a.runtime.android.mainActivity',
+          matches:
+            'FrameLayout[id="android:id/content"] > FrameLayout > FrameLayout > FrameLayout[childCount=2] > FrameLayout[childCount=2] > FrameLayout > FrameLayout > ImageView',
+          snapshotUrls: 'https://i.gkd.li/i/17380802',
         },
       ],
     },
